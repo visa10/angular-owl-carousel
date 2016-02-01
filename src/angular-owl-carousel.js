@@ -98,6 +98,8 @@
 					owlCarousel = null,
 					propertyName = attributes.owlCarousel;
 
+				$element.addClass('owl-carousel');
+
 				for (var i = 0; i < owlOptions.length; i++) {
 					var opt = owlOptions[i];
 					if (attributes[opt] !== undefined) {
